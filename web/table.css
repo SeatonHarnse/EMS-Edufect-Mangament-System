@@ -1,0 +1,126 @@
+
+h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 15px 15px;
+  text-align: center;
+  font-weight: 900;         /*500*/
+  font-size: 15px;       /*15*/
+  color: #000070;       /*fff*/
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 700;          /*300*/
+  font-size: 15px;          /*15*/
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+/* to scale the radio button*/
+input[type="radio"] {
+    -ms-transform: scale(1.5);      /* IE 9 */
+    -webkit-transform: scale(1.5);  /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+                                   
+                                   
+/* demo styles */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  margin: 50px;
+}
+
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+
+
+
+ .button {
+    background-color: #000070;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:block;          /*taking it to center*/
+    margin:auto;      /*taking it to center*/
+    font-size: 16px;
+    cursor: pointer;
+    }
+      
+.button2 {
+    background-color: #000070;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display:block;          /*taking it to center*/
+    text-align: center;
+    margin:auto;      /*taking it to center*/
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .hide {
+      display: none;
+    }
+
+        
+.long-block {
+    background-color: #000070;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+   /* display: inline-block; */
+    font-size: 16px;
+  /*  margin: 4px 2px; */
+}
+
+/*
+button{
+  margin:auto;      /*taking it to center
+  display:block;          /*taking it to center
+}   */
